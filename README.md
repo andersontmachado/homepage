@@ -1,5 +1,2 @@
 # SITE
- __Site sobre Posicionamento dos elementos__.
- 
- ## FRONT-END
- 
+ Site sobre Posicionamento dos elementos
