@@ -97,5 +97,5 @@ p {
   width: 100%;
   text-align: center;
   padding: 40px; /*A soma do width + padding=140 no layout aparece a barrinha mostra que esta vazando a tela,então incluimos o box-sizing*/
-  box-sizing: border-box; /*Muito bom
+  box-sizing: border-box; /*Muito bom */
 }
