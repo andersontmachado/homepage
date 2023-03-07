@@ -55,7 +55,7 @@ p {
 .detalhe {
   width: 60px;
   height: 4px;
-  background: #81cffc;
+  background: ##81cffc;
   /*display: inline-block; ele consegue definir com esse inline só,aí aparece,NÃO PRECISA MAIS DESSE ELEMENTO,POIS AGORA A INTRODUAÇAO VIROU GRID*/
   position: absolute; /*pra nao influenciar nada nos elementos é o absolute*/
   top: 30px;
