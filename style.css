@@ -18,6 +18,9 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.introducao h1{
+  font-size: 2rem;
+}
 a {
   text-decoration: none;
 }
