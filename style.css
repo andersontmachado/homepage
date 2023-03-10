@@ -46,6 +46,14 @@ p {
   border-radius: 4px;
   color: #000;
   text-transform: uppercase;
+  border:2px solid #ffffff; 
+  /* se deixar só o menu a:hover quando passamos o mouse a tela fica pulando,então
+  coloquei essa tag com a mesma cor do background,por padrão o menu hover coloca valores */
+
+}
+.menu a:hover {
+  border:2px solid #e21;
+  /* podemos colocar tambem border-color:a cor que da na mesma agora */
 }
 .conteudo {
   display: grid;
@@ -88,6 +96,7 @@ p {
   text-align: right;
   padding: 2.5rem;
   align-self: center;
+  background-image: url("./img/onda.svg");
 }
 .vantagens {
   background: #fff;
