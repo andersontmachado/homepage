@@ -51,7 +51,7 @@ p {
   coloquei essa tag com a mesma cor do background,por padrão o menu hover coloca valores */
 }
 .menu a:hover {
-  border: 2px solid #e21;
+  border: 2px solid #81cffc;
   /* podemos colocar tambem border-color:a cor que da na mesma agora */
 }
 .conteudo {
@@ -70,7 +70,7 @@ p {
   justify-items: end;
 }
 /*BEFORE cria um pseudo-elemento que é o primeiro filho do elemento atingido. É frequentemente utilizado para adicionar conteúdo decorativo*/
-.introducao::before  {
+.introducao::before {
   content: ""; /*tem que ter esse elemento,senão não funciona,é regra*/
   width: 60px;
   height: 4px;
@@ -81,7 +81,6 @@ p {
   right: -30px; /*usando negativo para ficar ao centro,positivo ele fica só na introdução*/
 }
 
-  
 /* CRIANDO A COR DO BOTÃO */
 .botao {
   background: #81cffc;
@@ -119,7 +118,7 @@ p {
   background: #f7f7f7; /*pintara de cor cinza só numeros impares,o primeiro e o tercieor,se tivesse 5 elementos,7 elementos,só pintaria numero impar com a tagg nth-child(odd)odd significa impar*/
 }
 .vantagens-item:hover {
-  border-left: 4px solid #030099;
+  border-left: 4px solid #81cffc;
 }
 .vantagens-item p {
   grid-column: 1;
