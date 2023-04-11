@@ -61,7 +61,7 @@ p {
 }
 .introducao {
   background: #fff;
-  padding: 2.25;
+  padding: 2.25rem;
   text-align: right;
   position: relative; /* pra funcionar o top,right do Detalhe em cima da foto com a introdução*/
   display: grid; /*para ficar tudo alinhado e o botão do link ficar certo.*/
